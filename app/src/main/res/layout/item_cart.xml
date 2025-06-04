@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_small"
+    app:cardCornerRadius="@dimen/corner_radius_medium"
+    app:cardElevation="@dimen/elevation_small">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_medium">
+
+        <ImageView
+            android:id="@+id/imgDish"
+            android:layout_width="@dimen/dish_image_size"
+            android:layout_height="@dimen/dish_image_size"
+            android:scaleType="centerCrop"
+            android:background="@color/image_placeholder" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtDishName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dish_name"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_placeholder"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/accent_color"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/margin_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/margin_small">
+
+                <Button
+                    android:id="@+id/btnMinus"
+                    android:layout_width="@dimen/min_touch_target"
+                    android:layout_height="@dimen/min_touch_target"
+                    android:text="@string/minus"
+                    android:textSize="@dimen/text_size_medium"
+                    android:background="@drawable/rounded_button_secondary" />
+
+                <TextView
+                    android:id="@+id/txtQuantity"
+                    android:layout_width="@dimen/quantity_text_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quantity_placeholder"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/text_primary"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/btnPlus"
+                    android:layout_width="@dimen/min_touch_target"
+                    android:layout_height="@dimen/min_touch_target"
+                    android:text="@string/plus"
+                    android:textSize="@dimen/text_size_medium"
+                    android:background="@drawable/rounded_button_secondary" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/min_touch_target"
+                android:text="@string/remove"
+                android:textSize="@dimen/text_size_small"
+                android:background="@drawable/rounded_button_white"
+                android:textColor="@color/error_color"
+                android:paddingHorizontal="@dimen/padding_medium" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

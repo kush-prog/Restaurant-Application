@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_color">#00BCD4</color>
+    <color name="primary_dark">#0097A7</color>
+    <color name="primary_light">#B2EBF2</color>
+    <color name="accent_color">#FF5722</color>
+    <color name="accent_light">#FFAB91</color>
+    <color name="background_color">#F8F9FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="surface_color">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="button_primary">#4CAF50</color>
+    <color name="button_secondary">#2196F3</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_text_dark">#212121</color>
+    <color name="button_border">#E0E0E0</color>
+    <color name="success_color">#4CAF50</color>
+    <color name="error_color">#F44336</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+    <color name="indian_cuisine">#E91E63</color>
+    <color name="chinese_cuisine">#9C27B0</color>
+    <color name="italian_cuisine">#3F51B5</color>
+    <color name="mexican_cuisine">#FF5722</color>
+    <color name="rating_excellent">#4CAF50</color>
+    <color name="rating_good">#8BC34A</color>
+    <color name="rating_average">#FF9800</color>
+    <color name="image_placeholder">#E0E0E0</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#80FFFFFF</color>
+
+</resources>

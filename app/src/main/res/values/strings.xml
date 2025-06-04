@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurant App</string>
+    <string name="home">Home</string>
+    <string name="menu_card">Menu Card</string>
+    <string name="proceed_to_checkout">Proceed to checkout</string>
+    <string name="previous_orders">Previous Order</string>
+    <string name="order_successful">Order successful!</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="order_now">Order now</string>
+
+    <!-- Existing strings -->
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="choose_cuisine">Choose Your Cuisine</string>
+    <string name="top_dishes">Top Dishes</string>
+    <string name="go_to_cart">Go to Cart</string>
+    <string name="view_cart">View Cart</string>
+    <string name="cart">Cart</string>
+    <string name="cuisine_name">Cuisine Name</string>
+    <string name="dish_name">Dish Name</string>
+    <string name="price_placeholder" translatable="false">₹199</string>
+    <string name="rating_placeholder" translatable="false">⭐ 4.5</string>
+    <string name="add">ADD</string>
+    <string name="remove">Remove</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="minus" translatable="false">-</string>
+    <string name="quantity_placeholder" translatable="false">1</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="cgst" translatable="false">CGST (2.5%)</string>
+    <string name="sgst" translatable="false">SGST (2.5%)</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="place_order">Place Order</string>
+</resources>

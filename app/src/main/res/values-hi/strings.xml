@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">रेस्टोरेंट ऐप</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="choose_cuisine">अपना व्यंजन चुनें</string>
+    <string name="top_dishes">टॉप 3 प्रसिद्ध व्यंजन</string>
+    <string name="go_to_cart">कार्ट में जाएं</string>
+    <string name="view_cart">कार्ट देखें</string>
+    <string name="cart">कार्ट</string>
+    <string name="cuisine_name">व्यंजन का नाम</string>
+    <string name="dish_name">डिश का नाम</string>
+    <!-- ✅ ADD THESE MISSING TRANSLATIONS -->
+    <string name="price_placeholder">₹199</string>
+    <string name="rating_placeholder">⭐ 4.5</string>
+    <string name="add">जोड़ें</string>
+    <string name="remove">हटाएं</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="quantity_placeholder">1</string>
+    <string name="subtotal">उप-योग</string>
+    <string name="cgst">सीजीएसटी (2.5%)</string>
+    <string name="sgst">एसजीएसटी (2.5%)</string>
+    <string name="grand_total">कुल योग</string>
+    <string name="place_order">ऑर्डर दें</string>
+</resources>
