@@ -60,23 +60,3 @@ Sync Gradle and run the app on an emulator or a physical device.
 
 👨‍💻 Author
 Kush Chauhan
-
-GitHub: kush-prog
-
-LinkedIn: (Add your LinkedIn if you want)
-
-yaml
-Copy
-Edit
-
----
-
-Would you like me to also create a **short one-liner description** for the GitHub repository tagline (the one under the repo title)?
-
-
-
-
-
-
-
-Ask ChatGPT
